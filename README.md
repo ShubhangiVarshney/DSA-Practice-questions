@@ -1,9 +1,11 @@
 # DSA-Practice-questions
 Practice Leet Code questions 
+// Q1- Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
 package PracticeQuestions;
 import java.util.*;
 
-// Q1- Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
     class Q1 {
         public int[] twoSum(int[] nums, int target) {  //time complexity O(n^2)
             int[] sol=null;
